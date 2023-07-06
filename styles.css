@@ -1,0 +1,52 @@
+body {
+  background-color: #212529;
+  color: #adb5bd;
+}
+
+
+.nested-list {
+  list-style-type: "\1F4D6";
+}
+
+.section:hover {
+  background-color: #000000;
+  transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.navbar-dark {
+  background-color: black;
+  color: #adb5bd;
+}
+
+.game {
+  font-family: Copperplate, fantasy;
+  color: Tan;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+.question {
+  color: Beige;
+}
+
+.game button {
+  background-color: #212529;
+  color: #adb5bd;
+  font-size: 20px;
+}
+
+.game button:hover {
+  background-color: tan;
+  color: #201E20;
+}
+
+.game .correct {
+  background-color: green;
+  color: #201E20;
+}
+
+.game .incorrect {
+  background-color: red;
+  color: #201E20;
+}
+
